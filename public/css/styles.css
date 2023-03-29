@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;500&display=swap');
+body {
+  background-image: url("../images/bg-main-desktop.png");
+  background-repeat: no-repeat;
+  font-family: Heebo, sans-serif;
+}
+
+
+/* Card details*/
+.front-card, .back-card {
+  box-sizing: border-box;
+  color: white;
+  width: 350px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 25px;
+}
+
+.front-card {
+  background-image: url("../images/bg-card-front.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.back-card {
+  background-image: url("../images/bg-card-back.png");
+}
+
+
+.front-card p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card-number {
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding-top: 30px;
+}
+
+.card-logo {
+  width: 70px;
+}
+
+.card-name {
+}
+
+.card-bottom-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+label {
+  font-size: 10px;
+}
+
+.card-user-credentials {
+  width: 350px;
+  letter-spacing: 2px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  font-family: Heebo, sans-serif;
+  width: 100%;
+  height: 35px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 3px 10px;
+}
+
+.exp-date-container {
+  display: flex;
+}
+
+.form-bottom-section {
+  display: flex
+}
+
+.left-section {
+  margin-right: 20px;
+  width: 180px;
+}
+
+.margin-left {
+  margin-right: 10px;
+}
+
+.card-expiration-container {
+  display: flex;
+}
+
+.card-cvc {
+  text-align: end;
+  margin: 61px 20px 0;
+  font-size: 0.748rem;
+  letter-spacing: 2px;
+}
+
+
